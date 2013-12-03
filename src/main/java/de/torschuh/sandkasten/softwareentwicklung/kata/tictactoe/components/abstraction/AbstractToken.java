@@ -17,14 +17,12 @@ public abstract class AbstractToken implements Token, TokenTypeable {
      * @see de.torschuh.sandkasten.softwareentwicklung.
      *      kata.tictactoe.interfaces.Token#getType()
      */
-    @Override
     public abstract Type getType();
 
     /* (non-Javadoc)
      * @see de.torschuh.sandkasten.softwareentwicklung.
      *      kata.tictactoe.interfaces.Token#getTypeString()
      */
-    @Override
     public abstract String getTokenName();
     
 }

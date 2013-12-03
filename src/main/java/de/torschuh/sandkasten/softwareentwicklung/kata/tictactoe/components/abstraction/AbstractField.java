@@ -15,20 +15,17 @@ public abstract class AbstractField implements Field, FieldIdentifiable {
     /* (non-Javadoc)
      * @see de.torschuh.sandkasten.softwareentwicklung.kata.tictactoe.interfaces.Locatable#getIdentifier()
      */
-    @Override
     public abstract Identifier getIdentifier();
 
     /* (non-Javadoc)
      * @see de.torschuh.sandkasten.softwareentwicklung.kata.tictactoe.interfaces.Field#getToken()
      */
-    @Override
     public abstract Token getToken();
     
     /* (non-Javadoc)
      * @see de.torschuh.sandkasten.softwareentwicklung.kata.tictactoe.interfaces.Field
      *      #setToken(de.torschuh.sandkasten.softwareentwicklung.kata.tictactoe.interfaces.Token)
      */
-    @Override
     public abstract void setToken(final Token pToken);
 
 }
